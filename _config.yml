@@ -6,14 +6,13 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "China Hunan"
+locale                   : "zh-CN"
 title                    : "Lihong Zhang"
-title_separator          : "-"
 name                     : &name "Lihong Zhang"
-description              : &description "personal description"
-url                      : https://zlihong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Zlihong/zlihong.github.io"
+description              : &description "Graduate Student at Central China Normal University"
+url                      : "https://zlihong.github.io"
+baseurl                  : ""
+repository               : "ZLihong/zlihong.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default) 
 words_per_minute         : 160
@@ -82,40 +81,39 @@ analytics:
 author:
   name             : "Lihong Zhang (章丽红)"
   avatar           : "profile1.png"
-  bio              : "Undergraduate student in Hunan University of Science and Technology"
-  location         : "China Hunan"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "zlhy04@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  bio              : "Graduate Student at Central China Normal University"
+  location         : "Wuhan, China"
+  employer         : "Central China Normal University"
+  pubmed           :
+  googlescholar    :
+  email            : "lihongzhang@mails.ccnu.edu.cn"
+  researchgate     :
+  uri              : "https://zlihong.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Zlihong"
+  github           : "ZLihong"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : # "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-
 
 # Reading Files
 include:
@@ -255,7 +253,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
