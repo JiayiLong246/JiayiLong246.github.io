@@ -31,20 +31,17 @@ sign. IEEE Computer Society, pp. 121‑126, 2024  (CCF C)
   **项目简介**：由机械臂模块、自动推进与敲灰模块、灭火装置模块、自动点燃模块、艾灸夹取模块、视觉传
   感模块、智能语音控制模块和智能控温模块共8个模块构成,解决目前市场上电加热艾灸效果不明显的缺点
   <br>
-  **源码地址**：[github.com/ZLihong/moxibustion-apparatus](https://github.com/ZLihong/moxibustion-apparatus)
 
 + **基于单目标优化模型的最优配色问题研究**指导老师：谭敏 2023.08
 
   **项目简介**：采用优化模型来解决传统的人工配色方法存在的一些限制,比如主观因素较强,效率较低等问题
   <br>
-  **源码地址**：[github.com/ZLihong/B-202308-mathematical-modeling](https://github.com/ZLihong/B-202308-mathematical-modeling).
 
 + **多波束测线问题研究** 指导老师：谭敏 2023.09
   
   **项目简介**：通过计算声波在海水中的传播速度和传播时间并对海底进行数字地形建模,来解决多波束测深系统存在漏测 
   或者相邻条带之间的重叠率过大的问题,并求出测线的总长度
   <br>
-  **源码地址**：[github.com/ZLihong/B-202309-mathematical-modeling](https://github.com/ZLihong/B-202308-mathematical-modeling)
   
 ## Awards
 ------
