@@ -7,22 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-亲爱的朋友，我叫章丽红，目前是华中师范大学研究生。
-
-我的研究方向包括知识图谱推理、归纳式链接预测、超图神经网络和自然语言处理。
+亲爱的朋友，我叫隆嘉仪，目前是湖南科技大学的一名本科生，指导老师是康国胜老师。
 
 如果您有任何疑问，欢迎与我联系！
 
 ## Publicationss
 ------
-+ **Lihong Zhang**, Jing He, Yamei Nie, Xiaokang Zhou, Qiqi Chen, Guosheng Kang*. JMF‑SS: Joint
-Matrix Factorization for Web API Recommendation with Mashup‑Mashup Similarities and API‑
-API Similarities. International Conference on Computer Supported Cooperative Work in Design.
-IEEE Computer Society, pp. 1219‑1224,2024  (CCF C)
-+ Wanjun Chen, Qiqi Chen, Jiexun Shen, Guosheng Kang*, Jianxun Liu, Buqing Cao, **Lihong Zhang**.
-Interactive Web API Recommendation via Exploring Mashup‑API Interactions and Functional De‑
-scription Documents. International Conference on Computer Supported Cooperative Work in De‑
-sign. IEEE Computer Society, pp. 121‑126, 2024  (CCF C)
++ **Jiayi Long**, Jinhui Luo, Jiawei Chen, Guosheng Kang*, Lifeng Yang, Wen Li and Jiayan Xiang. Aligning Graphs and Sequences: A Contrastive Learning Approach for Next Event Prediction. International Conference on Computer Supported Cooperative Work in Design. IEEE Computer Society, pp. 3509-3514, 2026. (CCF C)
++ Jinhui Luo, **Jiayi Long**, Jiawei Chen, Guosheng Kang*, Jianxun Liu, Yipin Wen. LLM4PPM: Learning Transferable Process Semantics for Predictive Process Monitoring. International Conference on Web Information Systems Engineering. Springer, 2026, Accepted. (CCF B)
++ Jinhui Luo, **Jiayi Long**, Ziyi Niu, Guosheng Kang*, Yingbo Liu, Yiping Wen, Jianxun Liu. Frequency-Based Heterogeneous Graph-Sequence Fusion Network for Next Activity Prediction. International Joint Conference on Neural Networks. IEEE Computer Society, pp. 1-8, 2026. (CCF C)
 
 ## Projects
 ------
@@ -56,13 +49,11 @@ sign. IEEE Computer Society, pp. 121‑126, 2024  (CCF C)
 
 ## Credit
 ------
-+ 校级创新创业先进个人 2022
-+ 校级二等综合奖学金 2022
-+ 国家励志奖学金 2023
-+ 校级一等综合奖学金 2023
-+ 校级三好学生 2023
-+ 校级自强之星 2023
-+ 校级优秀共青团员 2023,2024
++ 校级一等综合奖学金 2024，2025
++ 国家励志奖学金 2024，2025
++ 校级优秀共青团员 2024，2025
++ 校级三好学生 2024
++ 校级优秀学生 2025
 
 ## Major Courses
 ------
