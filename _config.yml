@@ -9,7 +9,7 @@
 locale                   : "zh-CN"
 title                    : "Jiayi Long"
 name                     : &name "Jiayi Long"
-description              : &description "Undergraduate student at Hunan University of Science and Technology"
+description              : &description "Undergraduate student in Hunan University of Science and Technology"
 url                      : "https://jiayilong246.github.io"
 baseurl                  : ""
 repository               : "JiayiLong246/jiayilong.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Jiayi Long(隆嘉仪)"
   avatar           : "IMG_1231_(2).jpg"
-  bio              : "Undergraduate student at Hunan University of Science and Technology"
+  bio              : "Undergraduate student in Hunan University of Science and Technology"
   location         : "Hunan, China"
   employer         : "Hunan University of Science and Technology"
   pubmed           :
