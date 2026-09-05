@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Lihong Zhang"
-name                     : &name "Lihong Zhang"
-description              : &description "Graduate Student at Central China Normal University"
-url                      : "https://zlihong.github.io"
+title                    : "Jiayi Long"
+name                     : &name "Jiayi Long"
+description              : &description "Undergraduate student at Hunan University of Science and Technology"
+url                      : "https://jiayilong.github.io"
 baseurl                  : ""
-repository               : "ZLihong/zlihong.github.io"
+repository               : "JiayiLong246/jiayilong.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default) 
 words_per_minute         : 160
