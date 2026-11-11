@@ -1,0 +1,35 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>知习练习采集助手</title>
+<style>body{font:14px/1.6 system-ui;width:350px;padding:15px;color:#173e3b}h2{margin:0 0 8px}button{display:block;width:100%;margin:8px 0;padding:9px;border:1px solid #b6ccc7;border-radius:7px;background:#edf6f3;cursor:pointer}button.primary{background:#176c59;color:#fff}button:disabled{opacity:.5}small{color:#666}label{display:block;margin:7px 0}input[type=text]{display:block;box-sizing:border-box;width:100%;padding:6px}#status{white-space:pre-wrap;padding:10px;background:#f4f6f5}summary{cursor:pointer}</style>
+<h2>知习练习采集助手 0.5.0</h2>
+<small>先进入学校“考试练习”。可从题目页或答案页启动，答案页已有的一套会先补采，随后开始设定套数的新练习。</small>
+<label><input id="practice" type="checkbox">我已进入“考试练习”，本轮允许随机作答并提交</label>
+<label>本次练习套数（1–1000）<input id="rounds" type="number" min="1" max="1000" step="1" value="10"></label>
+<button id="run" class="primary">开始自动循环</button>
+<button id="fill">只随机作答一套，等待我手动核对</button>
+<button id="capture">采集当前页面的题目与答案</button>
+<button id="stop">停止自动循环与等待采集</button>
+<p id="status">正在读取题库…</p>
+<button id="json">导出累计题库 JSON（可导入原工具包）</button>
+<button id="html">导出题目与答案阅读版 HTML</button>
+<button id="logs" class="primary">导出诊断日志（出问题后点这里）</button>
+<small>自动记录运行步骤、题目、网页答案及识别结果。点击导出会补采当前页面的诊断信息。</small>
+<button id="clearLogs">清空诊断日志</button>
+<details><summary>GitHub 公开题库同步</summary>
+<p>维护者 JiayiLong246 · 每套答案保存后自动同步公开题库。</p>
+<label>GitHub fine-grained token<input id="github-token" type="password" autocomplete="off" placeholder="仅在此扩展中填写并保存"></label>
+<label><input id="github-auto" type="checkbox">每套完成后自动同步 GitHub</label>
+<button id="github-save">保存同步配置</button><button id="github-sync">立即同步累计题库</button>
+<p id="github-status">尚未配置</p>
+<a href="https://jiayilong246.github.io/zhixi/" target="_blank" rel="noopener">打开公开刷题网站</a>
+<button id="github-forget">移除此设备的同步凭据</button>
+</details>
+<details><summary>高级设置 · 页面改版时调整</summary>
+<small>CSS 选择器。答案选择器应指向每题中的正确答案元素。留空时只识别“答案／正确答案／参考答案／标准答案”标签及其只读文本框。</small>
+<label>题目容器<input id="box" type="text" value=".question-list-box"></label>
+<label>题干（容器内）<input id="title" type="text" value=".name"></label>
+<label>选项（容器内，按页面顺序）<input id="options" type="text" value=".el-radio__label,.el-checkbox__label"></label>
+<label>正确答案（容器内，可留空）<input id="answer" type="text"></label>
+<label>提交按钮（可留空）<input id="submit" type="text"></label>
+<label>重新练习按钮（可留空）<input id="retry" type="text"></label>
+<button id="settings">保存设置</button></details>
+<script src="core.js"></script><script src="popup.js"></script></html>

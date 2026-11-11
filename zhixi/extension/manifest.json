@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "知习练习采集助手",
+  "version": "0.5.0",
+  "description": "保存练习题，按设定套数循环随机作答并采集提交后显示的参考答案。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://zhdj.hnust.edu.cn/*",
+    "https://webvpn.hnust.edu.cn/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://zhdj.hnust.edu.cn/*",
+        "https://webvpn.hnust.edu.cn/*"
+      ],
+      "js": [
+        "core.js",
+        "content.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "知习练习采集助手"
+  },
+  "optional_host_permissions": [
+    "https://api.github.com/*"
+  ]
+}

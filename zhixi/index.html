@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#183e36"><meta name="description" content="免登录个人刷题，自动保存进度、错题和收藏。">
+<title>知习 · 共享题库</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar"><a href="#home" class="brand"><span class="brand-icon">习</span><span>知习<small>我的练习本</small></span></a><div class="nav-label">学习空间</div><nav id="desktop-nav"></nav><div class="sidebar-bottom"><span class="device-dot"></span> 免登录 · 记录留在此设备<p>一点一点，学得更扎实。</p></div></aside>
+<main><header><div><span class="eyebrow">PERSONAL STUDY SPACE</span><p id="date-label"></p><p id="bank-version" class="muted small"></p></div><button id="bank-refresh" class="icon-button" hidden>更新题库</button><button class="icon-button" data-action="settings" aria-label="打开备份与设置">备份与设置 <span>↗</span></button></header><div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px"><a href="reading.html">题目与答案阅读版</a><a href="zhixi-toolkit-v0.5.0.zip" download>下载完整工具包</a><a href="sync-guide.html">采集与自动同步说明</a><a href="https://github.com/JiayiLong246/JiayiLong246.github.io/tree/master/zhixi" target="_blank" rel="noopener">GitHub 源码</a></div><div id="app"><div class="loading">正在打开你的练习本…</div></div><footer><span id="save-status">准备读取记录</span><span>本站答案为参考答案；有歧义的题目不计入判分。</span></footer></main>
+</div>
+<nav id="mobile-nav" aria-label="底部导航"></nav><div id="toast" role="status" aria-live="polite"></div>
+<dialog id="settings"><div class="dialog-head"><div><span class="eyebrow">YOUR DATA, YOUR DEVICE</span><h2>备份与设置</h2></div><button class="icon-button" data-action="close-settings" aria-label="关闭设置">✕</button></div><p>答题进度、错题和收藏自动保存在当前浏览器。关闭页面后再次打开，可以继续练习。</p><div class="notice">换设备、换浏览器或清除网站数据后，记录不会自动同步。建议定期导出备份；在新设备导入即可恢复。</div><div class="setting-row"><div><b>导出我的记录</b><p>保存进度、答题历史、错题和收藏</p></div><button class="button primary" data-action="export">导出备份</button></div><div class="setting-row"><div><b>从备份恢复</b><p>导入后将替换此设备的当前记录</p></div><label class="button secondary" for="import-file">选择备份</label><input id="import-file" type="file" accept=".json,application/json" hidden></div><div class="setting-row"><div><b>数据概况</b><p id="data-summary"></p></div></div><p class="muted small">只在联网时首次加载题库；成功缓存后可在当前浏览器离线使用。请使用普通浏览模式，避免无痕窗口自动清除记录。</p></dialog>
+<script src="app.js" defer></script>
+</body></html>
